@@ -1,0 +1,38 @@
+1. create application source bundle for existing projectx
+
+https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/applications-sourcebundle.html
+
+2.  create application
+
+aws elasticbeanstalk create-application --application-name TrainingApp  --description "HopeTraining Application" >> sampledata/output/createApplication.json
+
+3. Check CNAME is available
+
+aws elasticbeanstalk check-dns-availability --cname-prefix akilan
+
+4. Create application version
+
+aws elasticbeanstalk  create-application-version  --application-name TrainingApp    --version-label version1 >> sampledata/output/createApplicationVersion.json
+
+5. List available solution stacks
+
+ aws elasticbeanstalk list-available-solution-stacks
+
+6. Create application environment
+
+ aws elasticbeanstalk create-environment --application-name TrainingApp --environment-name dev --cname-prefix akilan --version-label version1 --solution-stack-name "64bit Amazon Linux 2017.03 v2.4.0 running PHP 5.4"
+
+
+7.  Terminate a running environment
+
+aws elasticbeanstalk terminate-environment --environment-name trdev >> sampledata/output/terminateEnvironment.json
+
+
+8. Delete application
+
+aws elasticbeanstalk delete-application --application-name TrainingApp
+
+
+9. update-application
+
+Updates the specified application to have the specified properties. If a property (for example, description ) is not provided, the value remains unchanged. To clear these properties, specify an empty string.

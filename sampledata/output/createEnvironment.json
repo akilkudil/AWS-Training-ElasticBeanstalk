@@ -1,0 +1,18 @@
+{
+    "ApplicationName": "TrainingApp", 
+    "EnvironmentName": "trdev", 
+    "VersionLabel": "version1", 
+    "Status": "Launching", 
+    "PlatformArn": "arn:aws:elasticbeanstalk:us-east-1::platform/PHP 5.4 running on 64bit Amazon Linux/2.4.0", 
+    "SolutionStackName": "64bit Amazon Linux 2017.03 v2.4.0 running PHP 5.4", 
+    "EnvironmentId": "e-fp4skfirbp", 
+    "CNAME": "akilan.us-east-1.elasticbeanstalk.com", 
+    "Tier": {
+        "Version": " ", 
+        "Type": "Standard", 
+        "Name": "WebServer"
+    }, 
+    "Health": "Grey", 
+    "DateUpdated": "2017-06-08T11:53:30.696Z", 
+    "DateCreated": "2017-06-08T11:53:30.696Z"
+}

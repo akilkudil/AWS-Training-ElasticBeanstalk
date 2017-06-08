@@ -1,0 +1,23 @@
+{
+    "ApplicationName": "", 
+    "VersionLabel": "", 
+    "Description": "", 
+    "SourceBuildInformation": {
+        "SourceType": "", 
+        "SourceRepository": "", 
+        "SourceLocation": ""
+    }, 
+    "SourceBundle": {
+        "S3Bucket": "", 
+        "S3Key": ""
+    }, 
+    "BuildConfiguration": {
+        "ArtifactName": "", 
+        "CodeBuildServiceRole": "", 
+        "ComputeType": "", 
+        "Image": "", 
+        "TimeoutInMinutes": 0
+    }, 
+    "AutoCreateApplication": true, 
+    "Process": true
+}

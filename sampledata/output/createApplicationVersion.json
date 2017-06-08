@@ -1,0 +1,13 @@
+{
+    "ApplicationVersion": {
+        "ApplicationName": "TrainingApp", 
+        "Status": "UNPROCESSED", 
+        "VersionLabel": "version1", 
+        "DateCreated": "2017-06-08T11:36:57.349Z", 
+        "DateUpdated": "2017-06-08T11:36:57.349Z", 
+        "SourceBundle": {
+            "S3Bucket": "elasticbeanstalk-us-east-1", 
+            "S3Key": "GenericSampleApplication"
+        }
+    }
+}

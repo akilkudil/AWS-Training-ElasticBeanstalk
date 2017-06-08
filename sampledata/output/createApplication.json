@@ -1,0 +1,23 @@
+{
+    "Application": {
+        "ApplicationName": "TrainingApp", 
+        "Description": "HopeTraining Application", 
+        "DateCreated": "2017-06-08T11:25:21.200Z", 
+        "ConfigurationTemplates": [], 
+        "DateUpdated": "2017-06-08T11:25:21.200Z", 
+        "ResourceLifecycleConfig": {
+            "VersionLifecycleConfig": {
+                "MaxCountRule": {
+                    "DeleteSourceFromS3": false, 
+                    "Enabled": false, 
+                    "MaxCount": 200
+                }, 
+                "MaxAgeRule": {
+                    "DeleteSourceFromS3": false, 
+                    "Enabled": false, 
+                    "MaxAgeInDays": 180
+                }
+            }
+        }
+    }
+}
